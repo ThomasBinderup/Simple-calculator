@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#line {
+    position:absolute;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.295);
+    width: 146px;
+    top: 20px;
+    
+}
+#topCalculatorField { /*p element */
+    position: absolute;
+    left: 138px;
+    top: 0px;
+    display: block;
+
+  }
+
+
+.calculatorField { /*div element */
+    padding: 50px 5px 5px 139px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+
+#calculatorField { /*h4 element */
+    top: 35px;
+    left: 135px;
+    position: fixed;
+    text-align: center;
+    direction: left;
+}
+
+
+.columnOne p {
+    display: inline-block;
+    padding: 10px;
+    background-color: gray;
+    font-size: 25px;
+    border: 2px solid black;  
+    margin-right: -4px;  
+}
+
+.columnTwo p {
+    display: inline-block;
+    padding: 10px;
+    background-color: gray;
+    font-size: 25px;
+    margin-right: -4px;
+    border: 2px solid black;
+}
+
+.columnThree p {
+    display: inline-block;
+    padding: 10px;
+    background-color: gray;
+    font-size: 25px;
+    margin-right: -4px;
+    border: 2px solid black;
+
+}
+
+.columnFour p{
+    display: inline-block;
+    padding: 10px;
+    background-color: gray;
+    font-size: 25px;
+    margin-right: -4px;
+    border: 2px solid black;
+}
+
+#exponentiation {
+    padding: 15px 8px 11px 8px;
+    font-size: 20px;
+}
+
+p:hover {
+    background-color: rgba(120, 120, 120, 0.265);
+    cursor: pointer;
+
+}
+
+#equals {
+    background-color:green;
+}
+
+#equals:hover {
+    background-color: brown;
+}
