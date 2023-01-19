@@ -1,0 +1,1 @@
+This is a mini project where I built a simplified replicated version of the windows calculator. Note that this calculator isn't completely finished. The square root button and the exponentiation button needs some added functionality to work properly but the concept is the same as for the plus, minus and multiply button.
